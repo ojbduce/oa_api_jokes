@@ -17,7 +17,7 @@ class Code_To_Run(Code_To_RunTemplate):
 
   def button_1_click(self, **event_args):
     """This method is called when the button is clicked"""
-    open_form('Form1')
+    open_form('Code_To_Run')
 
   
 
