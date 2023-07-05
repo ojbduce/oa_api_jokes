@@ -3,14 +3,15 @@ services:
 - source: /runtime/services/tables.yml
   client_config: {}
   server_config: {}
-package_name: Open_AI_Template
+startup: {type: form, module: Code_To_Run}
+package_name: Jokes_1__An_Open_AI_API_Template
 allow_embedding: false
-name: Open AI Template
+name: 'Jokes 1: An Open AI API Template'
 runtime_options:
   version: 2
   client_version: '3'
   server_version: python3-full
   server_spec: {base: python310-datascience}
 metadata: {title: Open AI Template, description: Boilerplate for Open AI API connection}
-startup_form: Form1
+startup_form: null
 renamed: true

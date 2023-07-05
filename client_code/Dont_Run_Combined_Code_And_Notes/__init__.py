@@ -1,7 +1,12 @@
+'''This is a Notes Form. Don't link, to it or try to run!
+It shows the Client and Server Code Consequitively For ease of reading or export etc.'''
+
 #CLIENT - SERVER CODE
 # CLIENT
 # Call server function to prompt ChatGPT to tell a joke
 # return joke text to text area
+# This is Step 1 - in Step 2 we ensure a new joke is told every time.
+
 def label_1_show(self, **event_args):
     """This method is called when the Label is shown on the screen"""
     self.text_area_joke = anvil.server.call('connect_to_open_ai')

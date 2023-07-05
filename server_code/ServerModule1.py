@@ -26,3 +26,4 @@ def connect_to_open_ai():
     stop=None,
     temperature=0.5,)
   print(response.choices[0].text)
+  return (response.choices[0].text)
