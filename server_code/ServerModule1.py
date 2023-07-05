@@ -1,18 +1,8 @@
 import anvil.server
 import openai
 
-# This is a server module. It runs on the Anvil server,
-# rather than in the user's browser.
-#
-# To allow anvil.server.call() to call functions here, we mark
-# them with @anvil.server.callable.
-# Here is an example - you can replace it with your own:
-#
-# @anvil.server.callable
-# def say_hello(name):
-#   print("Hello, " + name + "!")
-#   return 42
-#
+# Stage 1 - We will alter this to randaomise the response and make sure we get a new joke each time.
+
 @anvil.server.callable
 def connect_to_open_ai():
   openai.api_key = "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"

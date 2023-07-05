@@ -1,3 +1,4 @@
+from ._anvil_designer import Dont_Run_NotesTemplate
 '''This is a Notes Form. Don't link, to it or try to run!
 It shows the Client and Server Code Consequitively For ease of reading or export etc.'''
 
