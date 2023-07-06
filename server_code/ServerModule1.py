@@ -1,8 +1,8 @@
 import anvil.server
 import openai
 
-# Stage 1 - We will alter this to randaomise the response and make sure we get a new joke each time.
-
+# Stage 1 - Boilerplate api call function. We will alter this to randaomise the response and make sure we get a new joke each time.
+# (Remove key!!)
 @anvil.server.callable
 def connect_to_open_ai():
   openai.api_key = "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"
