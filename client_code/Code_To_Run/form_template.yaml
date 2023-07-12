@@ -52,7 +52,7 @@ components:
   components: []
 - type: Label
   properties: {role: title, align: left, tooltip: '', border: '', foreground: black,
-    visible: true, text: jokes.ai, font_size: 18, font: '', spacing_above: small,
+    visible: true, text: ':}okes.ai', font_size: 18, font: '', spacing_above: small,
     icon_align: left, spacing_below: small, italic: false, background: '', bold: true,
     underline: false, icon: ''}
   name: label_2
